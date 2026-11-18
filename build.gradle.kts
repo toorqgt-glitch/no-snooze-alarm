@@ -1,15 +1,5 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-}
-android {
-    namespace = "com.personal.nosnooze"
-    compileSdk = 35
-    defaultConfig {
-        applicationId = "com.personal.nosnooze"
-        minSdk = 26
-        targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
-    }
+    id("com.android.application") version "8.7.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.21" apply false
+    id("com.google.devtools.ksp") version "2.0.21-1.0.28" apply false
 }
